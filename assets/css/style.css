@@ -3,15 +3,16 @@ body {
     background-image: url("../images/golden-blue2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 500%; */
+    background-position: fixed;   
 }
 
 #image-card {
       border: 2px solid black;
+      margin-bottom: 20px;
 }
 
 
-/* Cited: https://www.w3schools.com/css/css_image_transparency.asp */
+/* Cited: https://www.w3schools.com/css/css_image_transparency.asp. To have a transparency overlay on the header image*/
 div.card-img-overlay {
     margin: 30px;
     background-color: #ffffff;
@@ -22,7 +23,6 @@ div.card-img-overlay {
 
 
 div.card-img-overlay h1, div.card-img-overlay h3 {
-    /* margin: 5%; */
     font-weight: bolder;
     color: #000000;
     margin-top: 20px;
@@ -36,7 +36,13 @@ h1 {
 
 .card {
     box-shadow: 0px 0px 10px 4px;
+} 
+
+.card-header{
+color:  rgb(15, 15, 87);
+font-weight: bold;
 }
+
 
 #train-table th,
 td {
@@ -44,25 +50,19 @@ td {
     width: 16.575%;
 }
 
+#train-table{
+    margin-left: 20px;
+}
 
-
-
-button {
-    border: 2px solid midnightblue;
-    background-color: midnightblue;
+#add-train-btn {
+    border: 2px solid rgb(15, 15, 87);
+    background-color: rgb(15, 15, 87);
+    font-weight: bolder;
 
 }
 
-/* 
-.jumbotron{
-    background-color: black; 
-    color: white;
-    
-}
- */
 
-/* h1, h3 {
-    color: black;
-    font-weight: bold;
-    
-} */
+#add-train-btn:hover{
+background-color:rgb(41, 41, 168);
+}
+
