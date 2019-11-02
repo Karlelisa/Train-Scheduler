@@ -4,7 +4,7 @@ $(document).ready(function () {
 
     // Initialize Firebase
 
-    var config = {
+    let config = {
         apiKey: "AIzaSyDTXMa39PExEZ3nSd4-pMZo9fQMHuuQWjA",
         authDomain: "karlelisas-test-project.firebaseapp.com",
         databaseURL: "https://karlelisas-test-project.firebaseio.com",
@@ -15,7 +15,7 @@ $(document).ready(function () {
     firebase.initializeApp(config);
 
     // Create a variable to reference the database.
-    var database = firebase.database();
+    let database = firebase.database();
 
     let trainRef = database.ref("/schedule");
 
@@ -92,7 +92,7 @@ $(document).ready(function () {
         console.log("ARRIVAL TIME: " + moment(nextArrival).format("h:mm"));
 
         // Createing the new train schedule row
-        var newRow = $("<tr>").append(
+        let newRow = $("<tr>").append(
             $("<td>").text(trainName),
             $("<td>").text(destination),
             $("<td>").text(frequency),
