@@ -29,4 +29,4 @@ https://karlelisa.github.io/Train-Scheduler/
 
 
 ## My Train Scheduler App Screenshot
-![My Train Scheduler App Cover Page](/assets/images/my-pyschic-game-cover-page.png) 
+![My Train Scheduler App Cover Page](/assets/images/my-train-scheduler-app-2.png) 
