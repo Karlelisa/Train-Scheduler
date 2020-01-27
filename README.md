@@ -23,7 +23,7 @@ HTML, CSS, Bootstrap, JQuery, JavaScript, Firebase, Moment JS
 
 
 ## GitHub Published Link
-Click on the below link to view my Train Scheduler App. Add the train information on the Add Train form and then click on submit to see when your next train will arrive and how many mintues away it is! This will display on the Current Train Schedule table. 
+Click on the below link to view my Train Scheduler App. Add the train information in the Add Train form and then click on submit to see when your next train will arrive and how many mintues away it is! This will display on the Current Train Schedule table. 
 
 https://karlelisa.github.io/Train-Scheduler/
 
